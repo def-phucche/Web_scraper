@@ -21,7 +21,7 @@ def setup_db():
     ''')
     conn.commit()
     conn.close()
-    print("✅ Database ready")
+    print("Database ready")
 
 
 def scrape_product(url):
